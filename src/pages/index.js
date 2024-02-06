@@ -67,7 +67,7 @@ function Home() {
        <link rel="icon" href="assets/images/MrConsultingGroup/icono/mrcgr_svg01.svg" />
     </Head>
     <Header3 />
-    <Preloader />
+    {/* <Preloader /> */}
     <Banner3 />
     <About3 />
     <Video3 />
