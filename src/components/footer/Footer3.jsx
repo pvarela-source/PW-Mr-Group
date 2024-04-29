@@ -89,28 +89,27 @@ function Footer3() {
                   />
                 </span>
                 <p>
-                  Nor again is there anyone who loves or pursues or desires to
-                  obtain pain.
+                  Soluciones inteligentes para desafíos complejos.
                 </p>
                 <ul className="footer-social sibling-three">
                   <li>
-                    <a href="https://www.linkedin.com/">
+                    <a href="#" target="_blank">
                       <i className="bx bxl-linkedin" />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://www.pinterest.com/">
                       <i className="bx bxl-pinterest-alt" />
                     </a>
-                  </li>
+                  </li> */}
                   <li>
-                    <a href="https://www.instagram.com/">
-                      <i className="bx bxl-instagram" />
+                    <a href="https://www.facebook.com/mrconsultinggroup" target="_blank">
+                      <i className="bx bxl-facebook" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/">
-                      <i className="bx bxl-facebook" />
+                    <a href="https://www.instagram.com/mr_consulting_group/ " target="_blank">
+                      <i className="bx bxl-instagram" />
                     </a>
                   </li>
                 </ul>
@@ -120,7 +119,7 @@ function Footer3() {
               <div className="row mb-70 gy-5">
                 <div className="col-lg-4 col-md-4 col-sm-6">
                   <div className="footer-list-area">
-                    <h3 className="footer-list-title">Our Services</h3>
+                    <h3 className="footer-list-title">Nuestros servicios</h3>
                     <ul className="footer-list sibling-three">
                       <li>
                         <a href="#">Website Design</a>
@@ -142,7 +141,7 @@ function Footer3() {
                 </div>
                 <div className="col-lg-5 col-md-5 col-sm-6">
                   <div className="footer-list-area">
-                    <h3 className="footer-list-title">Office Address</h3>
+                    <h3 className="footer-list-title">Dirección Oficina</h3>
                     <ul className="footer-address-list sibling-three">
                       <li>
                         <div className="icon">
@@ -150,11 +149,11 @@ function Footer3() {
                         </div>
                         <div className="address">
                           <a href="mailto:info@example1.com">
-                            info@example1.com
+                            servicioalcliente@mrcgr.com
                           </a>
-                          <a href="mailto:info@example2.com">
+                          {/* <a href="mailto:info@example2.com">
                             info@example2.com
-                          </a>
+                          </a> */}
                         </div>
                       </li>
                       <li>
@@ -179,7 +178,7 @@ function Footer3() {
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6">
                   <div className="footer-list-area">
-                    <h3 className="footer-list-title">More Info</h3>
+                    <h3 className="footer-list-title">Más información</h3>
                     <ul className="footer-list sibling-three">
                       <li>
                         <Link legacyBehavior href="/contact">
