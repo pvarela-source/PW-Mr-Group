@@ -173,7 +173,7 @@ function Footer3() {
                       href="#exampleModalToggle"
                       role="button"
                     >
-                      Get SiteMap
+                      Obtener mapa del sitio
                     </a>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ function Footer3() {
                         <div className="achievement-single">
                           <img
                             //src="assets/images/company/foot-award1.png"
-                            src="assets/images/MrConsultingGroup/partner/grupoAsica 110 px.png"
+                            src="assets/images/MrConsultingGroup/partner/Logo-Grupo-Asica.png"
                             alt=""
                           />
                         </div>
@@ -222,7 +222,7 @@ function Footer3() {
                       <SwiperSlide className="swiper-slide">
                         <div className="achievement-single">
                           <img
-                            src="assets/images/MrConsultingGroup/partner/Microsoft 110 px.jpg"
+                            src="assets/images/MrConsultingGroup/partner/Logo-Microsoft.png"
                             // src="assets/images/company/foot-award2.png"
                             alt=""
                           />

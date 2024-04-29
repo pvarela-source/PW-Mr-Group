@@ -143,10 +143,10 @@ function About3() {
                     href="/service-details"
                     data-cursor="View Details"
                   >
-                    <a>Support 24/7</a>
+                    <a>Soporte</a>
                   </Link>
                 </h4>
-                <p>To take a trivial example, which of us ever undertakes.</p>
+                <p> Nos esforzamos por proporcionar soluciones claras y fáciles de entender, para que pueda volver a trabajar de manera rápida y sin problemas.</p>
                 <Link
                   legacyBehavior
                   href="/service-details"

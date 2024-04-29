@@ -132,7 +132,7 @@ function Banner3() {
                   <div className="col-xl-5 col-lg-5 col-md-10 d-lg-flex d-none">
                     <div className="banner-three-image">
                       <img
-                        src="assets/images/banner/banner-three/image1.png"
+                        src="assets/images/banner/banner-MRCGR/Contador1.png"
                         alt="image"
                       />
                       <div className="banner-three-shape">
@@ -169,7 +169,7 @@ function Banner3() {
                   <div className="col-xl-5 col-lg-5 col-md-10 d-lg-flex d-none">
                     <div className="banner-three-image d-md-flex d-none">
                       <img
-                        src="assets/images/banner/banner-three/image2.png"
+                        src="assets/images/banner/banner-MRCGR/Programador1.png"
                         alt="image"
                       />
                       <div className="banner-three-shape">
@@ -206,7 +206,7 @@ function Banner3() {
                   <div className="col-xl-5 col-lg-5 col-md-10 d-lg-flex d-none">
                     <div className="banner-three-image">
                       <img
-                        src="assets/images/banner/banner-three/image3.png"
+                        src="assets/images/banner/banner-MRCGR/DisenioGrafico1.png"
                         alt="image"
                       />
                       <div className="banner-three-shape">

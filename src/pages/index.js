@@ -75,9 +75,10 @@ function Home() {
     {/* <Customar3 />
     <Testimonial3 /> */}
     <Contacte3 />
-    <CaseStudy3 />
+    {/* <CaseStudy3 /> */}
     {/* <Team3 /> */}
-    <Blog3 />
+    {/* <Blog3 /> */}
+    <div className="servcie-section pt-120 overflow-hidden"></div>
     <Footer3 />
     </>
   );
