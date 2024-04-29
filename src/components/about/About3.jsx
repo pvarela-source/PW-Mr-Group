@@ -146,7 +146,7 @@ function About3() {
                     <a>Soporte</a>
                   </Link>
                 </h4>
-                <p> Nos esforzamos por proporcionar soluciones claras y fáciles de entender, para que pueda volver a trabajar de manera rápida y sin problemas.</p>
+                <p> Nos esforzamos por proporcionar soluciones claras y fáciles de entender, para que pueda volver a trabajar de manera rápida y sin problemas. </p>
                 <Link
                   legacyBehavior
                   href="/service-details"
