@@ -67,7 +67,7 @@ function Home() {
        <link rel="icon" href="assets/images/MrConsultingGroup/icono/mrcgr_svg01.svg" />
     </Head>
     <Header3 />
-    <Preloader />
+    {/* <Preloader /> */}
     <Banner3 />
     <About3 />
     <Video3 />
@@ -75,9 +75,10 @@ function Home() {
     {/* <Customar3 />
     <Testimonial3 /> */}
     <Contacte3 />
-    <CaseStudy3 />
+    {/* <CaseStudy3 /> */}
     {/* <Team3 /> */}
-    <Blog3 />
+    {/* <Blog3 /> */}
+    <div className="servcie-section pt-120 overflow-hidden"></div>
     <Footer3 />
     </>
   );

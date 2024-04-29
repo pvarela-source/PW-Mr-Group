@@ -2,6 +2,7 @@ import React from "react";
 
 function Contacte3() {
   return (
+    <div className="servcie-section pt-120 overflow-hidden">
     <div className="contact-section">
       <div className="container contact-three-wrapper">
         <div className="row align-items-end">
@@ -122,6 +123,9 @@ function Contacte3() {
         </div>
       </div>
     </div>
+    </div>
+  
+    
   );
 }
 
