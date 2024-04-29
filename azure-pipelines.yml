@@ -4,7 +4,7 @@ trigger:
       - main
  
 variables:
-  azureSubscription: '#############'  #Replace it with Azure Subscription ID
+  azureSubscription: 'fbf5803e-ceab-4605-a7eb-1b04566e7ae1'  #Replace it with Azure Subscription ID
   webAppName: '$(appServiceName)'
   environmentName: '$(appServiceName)'
   vmImageName: 'ubuntu-latest'
@@ -57,7 +57,7 @@ stages:
           steps:
           - task: AzureWebApp@1
             inputs:
-              azureSubscription: 'next-js-conn' #Replace it with the Service Connection Name
+              azureSubscription: 'next-js-coneccion' #Replace it with the Service Connection Name
               appType: 'webAppLinux'
               appName: '$(appServiceName)'
               package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
