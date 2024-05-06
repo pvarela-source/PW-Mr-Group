@@ -45,31 +45,41 @@ function About() {
         <div className="row align-items-start justify-content-center">
           <div className="col-xl-5 col-lg-6 order-lg-1 order-2">
             <div className="about-five-image">
-              <img src="assets/images/bg/about-five-image.jpg" alt="image" />
+              <img src="assets/images/MrConsultingGroup/acercaDe/MRCGR.jpg" alt="image" />
               <div className="about-five-quote">
                 <h4>
-                  Our Target to Esay Solution of Busniess Progress &amp;
-                  Customer Satisfaction <span className="solid-line" />
+                  Nuestro objetivo es la solución y desarrollo empresarial. <span className="solid-line" />
                 </h4>
               </div>
             </div>
           </div>
           <div className="col-xl-7 col-lg-6 ps-xl-5 ps-lg-3 order-lg-2 order-1">
             <div className="section-title-four style-two text-start mb-15">
-              <span className="linear-text-two">Get to Know</span>
+              <span className="linear-text-two">MR Consulting Group</span>
               <h2>
-                Change Business{" "}
-                <span className="linear-text-two"> Stretegy.</span>{" "}
+                Cambia la{" "}
+                <span className="linear-text-two"> Estrategia</span>{" "}
+                de tu empresa{" "}
               </h2>
             </div>
             <p className="mb-30">
-              We denounce with righteous indignation and dislike men who are so
-              beguiled and demoralized by the charms of pleasure of the moment,
-              so blinded by desire, that they cannot foresee the pain and
-              trouble that are bound to ensue; and equal blame belongs to those
-              who fail in their duty through weakness
+              
+              Nuestra empresa de consultoría cuenta con una trayectoria sólida y exitosa en el mercado, 
+              respaldada por un equipo de profesionales altamente calificados y con amplia 
+              experiencia en diversas áreas. Desde nuestra fundación, 
+              nos hemos destacado por ofrecer soluciones innovadoras y a medida para nuestros clientes, 
+              ayudándoles a alcanzar sus objetivos y superar sus desafíos empresariales.
+              <br />
+              Nos avalan nuestra experiencia trabajando con empresas de diversos tamaños y sectores, 
+              lo que nos ha permitido desarrollar un profundo conocimiento de las necesidades y tendencias del mercado. 
+              Nuestro compromiso con la excelencia y la calidad en el servicio nos ha convertido en socios estratégicos de confianza para nuestros clientes, 
+              quienes han encontrado en nosotros un aliado comprometido con su éxito.
+              <br />
+              En cada proyecto que emprendemos, buscamos superar las expectativas de nuestros clientes, 
+              ofreciendo soluciones creativas, eficientes y orientadas a resultados. 
+              Nuestra reputación se basa en la satisfacción y fidelidad de nuestros clientes.
             </p>
-            <h4 className="achivement-title">Our Achievements:</h4>
+            {/* <h4 className="achivement-title">Our Achievements:</h4>
             <Swiper {...slider} className="swiper achievement-slider mb-60">
               <div className="swiper-wrapper">
                 <SwiperSlide className="swiper-slide">
@@ -156,7 +166,7 @@ function About() {
                   Explore More
                 </a>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

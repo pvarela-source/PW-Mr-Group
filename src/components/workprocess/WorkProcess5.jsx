@@ -7,9 +7,9 @@ function WorkProcess5() {
         <div className="row justify-content-center mb-50">
           <div className="col-lg-10">
             <div className="section-title-four text-center ">
-              <span className="linear-text-two">Working Process</span>
+              <span className="linear-text-two">Nuestro proceso</span>
               <h2>
-                How Do We <span className="linear-text-two">Work</span>
+              ¿Cómo <span className="linear-text-two">trabajamos ?</span>
               </h2>
             </div>
           </div>

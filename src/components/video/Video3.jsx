@@ -9,12 +9,12 @@ function Video3() {
           loop="loop"
           muted
           preload="auto"
-          src="assets/video/video-bg3.mp4"
+          src="assets/video/Video-mrcgr.mp4"
           style={{ width: "100%", height: "85vh", objectFit: "cover" }}
         ></video>
-        <div className="video-title">
+        {/* <div className="video-title">
           <h2>Analysis Period</h2>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ function MainLayout({ children }) {
       <Header3 />
       {/* <LayoutHeader /> */}
       {children}
-      <Newslatter />
+      {/* <Newslatter /> */}
       <Footer3 />
       {/* <Footer /> */}
     </>

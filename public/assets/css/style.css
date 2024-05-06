@@ -71,6 +71,8 @@ Template Name: TechGen - Digital Agency Template
   --light-bg: #fafafa;
   --font-nunito: "Nunito", sans-serif;
   --font-dm: "DM Sans", sans-serif;
+  --color-MR1: #0879A7;
+  --color-MR2: #023F57;
 }
 
 @font-face {
@@ -824,7 +826,7 @@ img {
   }
 }
 .section-title-four h2 span {
-  background: linear-gradient(45deg, var(--linear-pink), var(--primary-one) 80%);
+  background: linear-gradient(45deg, var(--color-MR1), var(--color-MR1) 80%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -903,7 +905,7 @@ img {
 .section-title-six > span {
   font-size: 20px;
   font-weight: 400;
-  background: linear-gradient(90deg, #ffa811 0%, #f33b00 100%);
+  background: linear-gradient(90deg, #0879A7 0%, #023F57 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -960,7 +962,7 @@ img {
   }
 }
 .section-title-six h2 span {
-  background: linear-gradient(90deg, #ffa811 0%, #f33b00 100%);
+  background: linear-gradient(90deg, #0879A7 0%, #023F57 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11962,7 +11964,8 @@ footer .branch-item.sibling-two .branch-phone h5 {
 }
 
 .linear-text-two {
-  background: linear-gradient(45deg, var(--linear-pink), var(--linear-yellow) 80%);
+  /* background: linear-gradient(45deg, var(--linear-pink), var(--linear-yellow) 80%); */
+  background: linear-gradient(45deg, var(--color-MR1), var(--color-MR1) 80%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -14082,7 +14085,7 @@ footer .branch-item.sibling-two .branch-phone h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/bg/breadcrumb-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/MrConsultingGroup/servicios/serviciosMR.jpg");
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .inner-banner {

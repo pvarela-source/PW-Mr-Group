@@ -11,13 +11,14 @@ import About from "../components/about/About";
 function AboutPage() {
   return (
     <MainLayout>
-      <Breadcrumb pageName="About Us" pageTitle="About Us" />
+      <Breadcrumb pageName="Acerca De Nosotros" pageTitle="Acerca De Nosotros" />
       <About />
       <WorkProcess5 />
-      <Video5 />
-      <Testimonial5 />
+      {/* <Video5 /> */}
+      {/* <Testimonial5 /> */}
       <Customar />
-      <Team5 />
+      {/* <Team5 /> */}
+      <div className="servcie-section pt-120 overflow-hidden"></div>
     </MainLayout>
   );
 }

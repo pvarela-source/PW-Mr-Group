@@ -7,15 +7,15 @@ import MainLayout from "../layout/MainLayout";
 function serviceTwo() {
   return (
     <MainLayout>
-      <Breadcrumb pageName="Services Two" pageTitle="Services Two" />
+      <Breadcrumb pageName="Servicios" pageTitle="Servicios" />
       <div className="service-section pt-120 pb-120">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="section-title-six text-center mb-60">
-                <span>Techio Services</span>
+                <span>MR Consulting Group</span>
                 <h2>
-                  Marketing <span>Analytics</span> Field
+                  Conoce <span>Mas</span> Sobre Nuestros Servicios
                 </h2>
               </div>
             </div>
@@ -36,9 +36,11 @@ function serviceTwo() {
                           <a>{item.title}</a>
                         </Link>
                       </h3>
-                      <p>{item.description_two}</p>
+                      <div className="container">
+                        <p>{item.description_two}</p>
+                      </div>
                       <Link legacyBehavior href="/service-details">
-                        <a className="explore-btn">Explore More</a>
+                        <a className="explore-btn">Leer Más</a>
                       </Link>
                     </div>
                   </div>

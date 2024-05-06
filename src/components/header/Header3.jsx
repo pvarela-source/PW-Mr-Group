@@ -90,13 +90,13 @@ function Header3() {
                 </a>
               </li> */}
               <li>
-                <a href="https://www.instagram.com/">
-                  <i className="bx bxl-instagram" />
+                <a href="https://www.facebook.com/mrconsultinggroup" target="_blank">
+                  <i className="bx bxl-facebook" />
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/">
-                  <i className="bx bxl-facebook" />
+                <a href="https://www.instagram.com/mr_consulting_group/" target="_blank">
+                  <i className="bx bxl-instagram" />
                 </a>
               </li>
             </ul>
@@ -191,10 +191,11 @@ function Header3() {
                 </Link>
               </li>
               <li className="menu-item-has-children">
-                <Link legacyBehavior href="/services" className="drop-down">
+                <Link legacyBehavior href="/services-two" className="drop-down">
+                {/* <Link legacyBehavior href="/services" className="drop-down"> */}
                   <a>Servicios</a>
                 </Link>
-                <i
+                {/* <i
                   className="bi bi-chevron-down dropdown-icon"
                   onClick={() => toggleMenu("service")}
                 />
@@ -207,17 +208,17 @@ function Header3() {
                 >
                   <li>
                     <Link legacyBehavior href="/services">
-                      <a>Services One</a>
+                      <a>Contabilidad</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href="/services-two">
-                      <a>Services Two</a>
+                      <a>Tecnologia</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href="/services-three">
-                      <a>Services Three</a>
+                      <a>Diseño Gráfico</a>
                     </Link>
                   </li>
                   <li>
@@ -235,7 +236,7 @@ function Header3() {
                       <a>Services Details</a>
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className="menu-item-has-children">
                 <a href="/about" className="drop-down">
@@ -250,7 +251,7 @@ function Header3() {
             </ul>
             {/* mobile-search-area */}
             <div className="d-flex justify-content-start align-items-center flex-row d-lg-none d-block mt-5">
-              <Link legacyBehavior href="/service-details">
+              <Link legacyBehavior  href="/contact">
                 <a className="eg-btn btn--md btn--primary-three d-flex d-lg-none">
                   Solicitar contacto
                 </a>
@@ -258,16 +259,16 @@ function Header3() {
             </div>
           </div>
           <div className="nav-right header-five-right d-flex jsutify-content-end align-items-center gap-sm-5 gap-4">
-            <div className="header-icons">
+            {/* <div className="header-icons">
               <a href="#" className="search-btn" onClick={toggleModal}>
                 <i className="bi bi-search" />
               </a>
-              {/* <a href="#" className="cart-icon">
+              <a search-btn className="cart-icon">
                 <i className="bi bi-bag-check" />
-              </a> */}
-            </div>
-            <Link legacyBehavior href="/service-details">
-              <a className="eg-btn btn--md btn--primary-three d-xl-flex d-none">
+              </a>
+            </div> */}
+            <Link legacyBehavior href="/contact">
+              <a  className="eg-btn btn--md btn--primary-three d-xl-flex d-none">
                 Solicitar contacto
               </a>
             </Link>
@@ -278,7 +279,7 @@ function Header3() {
               <div className="email">
                 <span>Llama ahora</span>
                 <h5>
-                  <a href="tel:+504-12345678">+504-12345678</a>
+                  <a href="tel:+504-12345678">+504 9564-1834</a>
                 </h5>
               </div>
             </div>

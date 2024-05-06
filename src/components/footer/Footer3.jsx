@@ -122,19 +122,19 @@ function Footer3() {
                     <h3 className="footer-list-title">Nuestros servicios</h3>
                     <ul className="footer-list sibling-three">
                       <li>
-                        <a href="#">Website Design</a>
+                        <a href="#">Diseño de páginas web</a>
                       </li>
                       <li>
-                        <a href="#">Content Writing</a>
+                        <a href="#">Servicios Cloud Azure</a>
                       </li>
                       <li>
-                        <a href="#">SEO Marketing</a>
+                        <a href="#">Marketing</a>
                       </li>
                       <li>
-                        <a href="#">Video Editing</a>
+                        <a href="#">Publicidad</a>
                       </li>
                       <li>
-                        <a href="#">Copy Writing</a>
+                        <a href="#">Contabilidad</a>
                       </li>
                     </ul>
                   </div>
@@ -161,8 +161,8 @@ function Footer3() {
                           <i className="bi bi-geo-alt" />
                         </div>
                         <div className="address">
-                          <a href="#">NewYork City, Office-01, Road-01</a>
-                          <a href="#">House-3A/B, Section-B</a>
+                          <a href="https://maps.app.goo.gl/JMMNY9Fb15Qtk2TJ9" target="_blank">Col.Humuya</a>
+                          <a href="https://maps.app.goo.gl/JMMNY9Fb15Qtk2TJ9" target="_blank">Tegucigalpa, Honduras</a>
                         </div>
                       </li>
                     </ul>
@@ -182,10 +182,10 @@ function Footer3() {
                     <ul className="footer-list sibling-three">
                       <li>
                         <Link legacyBehavior href="/contact">
-                          <a>Contact Us</a>
+                          <a>Contacta con nosotros</a>
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">Privacy &amp; Policy</a>
                       </li>
                       <li>
@@ -193,7 +193,7 @@ function Footer3() {
                       </li>
                       <li>
                         <a href="#">Terms &amp; Conditions</a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

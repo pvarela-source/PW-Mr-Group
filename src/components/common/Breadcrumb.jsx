@@ -27,7 +27,7 @@ function Breadcrumb({ pageName, pageTitle }) {
               <ol className="breadcrumb gap-3">
                 <li className="breadcrumb-item">
                   <Link legacyBehavior href="/">
-                    <a>Home</a>
+                    <a>Inicio</a>
                   </Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
