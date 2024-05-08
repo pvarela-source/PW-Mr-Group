@@ -26,38 +26,38 @@ function Customar() {
         prevEl: ".casestudy-one-prev",
       },
       breakpoints: {
-        280: {
-          slidesPerView: 2,
-          loop: true,
-        },
-        386: {
-          slidesPerView: 2,
-          loop: true,
-        },
-        540: {
-          slidesPerView: 2,
-          loop: true,
-        },
+        // 280: {
+        //   slidesPerView: 2,
+        //   loop: true,
+        // },
+        // 386: {
+        //   slidesPerView: 2,
+        //   loop: true,
+        // },
+        // 540: {
+        //   slidesPerView: 2,
+        //   loop: true,
+        // },
         768: {
           slidesPerView: 3,
           loop: true,
         },
-        992: {
-          slidesPerView: 4,
-          loop: true,
-        },
-        1200: {
-          slidesPerView: 4,
-          loop: true,
-        },
-        1400: {
-          slidesPerView: 5,
-          loop: true,
-        },
-        1600: {
-          slidesPerView: 6,
-          loop: true,
-        },
+        // 992: {
+        //   slidesPerView: 4,
+        //   loop: true,
+        // },
+        // 1200: {
+        //   slidesPerView: 4,
+        //   loop: true,
+        // },
+        // 1400: {
+        //   slidesPerView: 5,
+        //   loop: true,
+        // },
+        // 1600: {
+        //   slidesPerView: 6,
+        //   loop: true,
+        // },
       },
     };
   }, []);
@@ -68,15 +68,66 @@ function Customar() {
           <div className="row">
             <div className="col-12">
               <div className="section-title-small-two ">
-                <h5>Here 10K+ Comapny Have Connceted With Us</h5>
+                <h5>Compañias que han conectado con nosotros</h5>
               </div>
               <Swiper {...slider} className="swiper customer-slider">
                 <div className="swiper-wrapper d-flex align-items-center">
+
+                  <SwiperSlide className="swiper-slide">
+                    <div className="">
+                      <a href="#">
+                        <img
+                          src="assets/images/MrConsultingGroup/empresaMR/inverime.png"
+                          alt="image"
+                        />
+                      </a>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="">
+                      <a href="#">
+                        <img
+                          src="assets/images/MrConsultingGroup/empresaMR/agrimer.png"
+                          alt="image"
+                        />
+                      </a>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="">
+                      <a href="#">
+                        <img
+                          src="assets/images/MrConsultingGroup/empresaMR/demedica.png"
+                          alt="image"
+                        />
+                      </a>
+                    </div>
+                  </SwiperSlide>
+                  {/* <SwiperSlide className="swiper-slide">
+                    <div className="">
+                      <a href="#">
+                        <img
+                          src="assets/images/MrConsultingGroup/empresaMR/apapuerta.png"
+                          alt="image"
+                        />
+                      </a>
+                    </div>
+                  </SwiperSlide> */}
+                  {/* <SwiperSlide className="swiper-slide">
+                    <div className="customer-logo">
+                      <a href="#">
+                        <img
+                          src="assets/images/company/company5-5.png"
+                          alt="image"
+                        />
+                      </a>
+                    </div>
+                  </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="customer-logo">
                       <a href="#">
                         <img
-                          src="assets/images/company/company5-1.png"
+                          src="assets/images/company/company5-6.png"
                           alt="image"
                         />
                       </a>
@@ -87,16 +138,6 @@ function Customar() {
                       <a href="#">
                         <img
                           src="assets/images/company/company5-2.png"
-                          alt="image"
-                        />
-                      </a>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="customer-logo">
-                      <a href="#">
-                        <img
-                          src="assets/images/company/company5-3.png"
                           alt="image"
                         />
                       </a>
@@ -141,47 +182,7 @@ function Customar() {
                         />
                       </a>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="customer-logo">
-                      <a href="#">
-                        <img
-                          src="assets/images/company/company5-4.png"
-                          alt="image"
-                        />
-                      </a>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="customer-logo">
-                      <a href="#">
-                        <img
-                          src="assets/images/company/company5-5.png"
-                          alt="image"
-                        />
-                      </a>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="customer-logo">
-                      <a href="#">
-                        <img
-                          src="assets/images/company/company5-6.png"
-                          alt="image"
-                        />
-                      </a>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="customer-logo">
-                      <a href="#">
-                        <img
-                          src="assets/images/company/company5-2.png"
-                          alt="image"
-                        />
-                      </a>
-                    </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </div>
               </Swiper>
             </div>

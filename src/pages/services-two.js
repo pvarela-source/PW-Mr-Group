@@ -32,15 +32,17 @@ function serviceTwo() {
                     </div>
                     <div className="service-two-content">
                       <h3>
-                        <Link legacyBehavior href="/service-details">
+                        {/* <Link legacyBehavior href="/service-details"> */}
+                        <Link legacyBehavior href="/contact">
                           <a>{item.title}</a>
                         </Link>
                       </h3>
                       <div className="container">
                         <p>{item.description_two}</p>
                       </div>
-                      <Link legacyBehavior href="/service-details">
-                        <a className="explore-btn">Leer Más</a>
+                      {/* <Link legacyBehavior href="/service-details"> */}
+                      <Link legacyBehavior href="/contact">
+                        <a className="explore-btn">Contáctanos</a>
                       </Link>
                     </div>
                   </div>

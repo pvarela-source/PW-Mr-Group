@@ -2,8 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/index-technology": "pages/index-technology.js",
   "/services-two": "pages/services-two.js",
+  "/": "pages/index.js",
   "/about": "pages/about.js",
-  "/contact": "pages/contact.js",
-  "/": "pages/index.js"
+  "/contact": "pages/contact.js"
 }

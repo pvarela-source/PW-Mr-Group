@@ -1,8 +1,35 @@
 import React from "react";
 import Breadcrumb from "../components/common/Breadcrumb";
 import MainLayout from "../layout/MainLayout";
+import { useState } from "react";
+import swal from "sweetalert";
 
 function Contact() {
+  const [messege, setMessage] = useState("");
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    const response = await fetch(event.target.action, {
+      method: "POST",
+      body: data,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+    const result = await response.json();
+    if (!response.ok) {
+      setMessage(result.errors.map((error) => error.message).join(","));
+      return false;
+    }
+    swal({
+      icon: "success",
+      title: "Exito",
+      text: "Correo enviado satisfactoriamente !!!",
+      button: false,
+      timer: 800,
+    });
+    document.getElementById("formMR2").reset();
+  };
   return (
     <MainLayout>
       <Breadcrumb pageName="Contactanos" pageTitle="Contactanos" />
@@ -17,14 +44,25 @@ function Contact() {
                   Contacte con <span>Expertos</span>{" "}
                   </h2>
                 </div>
-                <form className="form-style-one sibling-five">
+                <form id="formMR2" 
+                      name="formMR2" 
+                      className="form-style-one sibling-five"
+                      action="https://formspree.io/f/mgegdjaq"
+                      method="POST"
+                      onSubmit={handleSubmit}
+                >
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="form-inner">
                         <div className="input-icon">
                           <i className="bx bx-user-circle" />
                         </div>
-                        <input type="text" placeholder="Nombre Completo*" />
+                        <input type="text"
+                             name="name"
+                             id="name"
+                             placeholder="Nombre Completo*" 
+                             required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6">
@@ -32,7 +70,14 @@ function Contact() {
                         <div className="input-icon">
                           <i className="bx bx-phone-call" />
                         </div>
-                        <input type="text" placeholder="Teléfono*" />
+                        <input type="text" 
+                               name="phone"
+                               id="phone"
+                               placeholder="Teléfono*" 
+                               pattern="[0-9]{8}" 
+                               title="El numero de telefono debe tener 8 digitos"
+                               required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6">
@@ -40,7 +85,12 @@ function Contact() {
                         <div className="input-icon">
                           <i className="bx bx-envelope" />
                         </div>
-                        <input type="text" placeholder="Correo*" />
+                        <input type="text" 
+                              name="email"
+                              id="email"
+                              placeholder="Correo*" 
+                              required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6">
@@ -48,15 +98,22 @@ function Contact() {
                         <div className="input-icon">
                           <i className="bx bx-shopping-bag" />
                         </div>
-                        <input type="text" placeholder="Nombre de la empresa*" />
+                        <input type="text" 
+                              name="company"
+                              id="company"
+                              placeholder="Nombre de la empresa" 
+                        />
                       </div>
                     </div>
                     <div className="col-12">
                       <div className="form-inner">
                         <textarea
+                          name="message"
+                          id="message"
                           rows={5}
                           placeholder="Escribe un mensaje..."
-                          defaultValue={""}
+                          // defaultValue={""}
+                          required
                         />
                       </div>
                     </div>
@@ -64,11 +121,12 @@ function Contact() {
                       <div className="checkbox-container">
                         <input
                           className="styled-checkbox style-two"
-                          id="styled-checkbox-1"
+                          name="_optin"
+                          id="_optin"
                           type="checkbox"
-                          defaultValue="value1"
+                          required
                         />
-                        <label htmlFor="styled-checkbox-1">
+                        <label htmlFor="_optin">
                           Autorizo que MR Consulting Group utilice mis datos.
                         </label>
                       </div>
