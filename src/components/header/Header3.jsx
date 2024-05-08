@@ -71,9 +71,9 @@ function Header3() {
         <div className="topbar-left">
           <h6>
             Bienvenido a nuestra empresa.
-            <Link legacyBehavior href="/faq">
+            {/* <Link legacyBehavior href="/faq">
               <a>Boletin</a>
-            </Link>
+            </Link> */}
           </h6>
         </div>
         <div className="topbar-right">
