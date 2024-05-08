@@ -70,7 +70,7 @@ function Header3() {
       <div className="topbar-three d-md-flex d-none">
         <div className="topbar-left">
           <h6>
-            Bienvenido a nuestra empresa , suscríbase a nuestro{" "}
+            Bienvenido a nuestra empresa.
             <Link legacyBehavior href="/faq">
               <a>Boletin</a>
             </Link>
